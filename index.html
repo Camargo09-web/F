@@ -84,7 +84,7 @@
 
             .precio{
                 font-size: 1.2em;
-                color: #B08D57; /* Un color dorado para resaltar el precio */
+                color: #B08D57; 
                 text-align: center;
                 margin-top: 10px;
                 font-weight: bold;
@@ -153,6 +153,38 @@
                 }
             }
             
+            
+            /*Botón de regreso*/
+            .boton-container {
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+                margin-top: 20px; 
+            
+            }
+            
+            button {
+                width: 20%;
+                background-color: #B08D57;
+                border: none;
+                color:white;
+                padding: 12px;
+                border-radius: 5px;
+                font-size: 16px;
+                text-decoration: none;
+                margin-top: 20px;
+                cursor: pointer;
+                
+            }
+            
+            button:hover {
+                background-color: black; 
+            }
+            
+            button:active {
+                background-color: black;
+            }
+            
            
             
         </style>
@@ -176,7 +208,7 @@
                         <img src="img/Falda%201.jpg" alt="Falda 1" width="600" height="400">
                     </a>
                     <div class="descripcion">Falda mini A-line de cintura alta, color sólido</div>
-                    <p class="precio">$180.00</p> 
+                    <p class="precio">$180</p> 
                 </div>
             </div>
 
@@ -186,7 +218,7 @@
                         <img src="img/Falda%202.jpg" alt="Falda 2" width="600" height="400">
                     </a>
                     <div class="descripcion">Falda para mujer, coqueta, chic y versátil</div>
-                    <p class="precio">$220.00</p> 
+                    <p class="precio">$220</p> 
                 </div>
             </div>
 
@@ -225,12 +257,17 @@
                     <a target="_blank" href="img/Falda%206.jpg">
                         <img src="img/Falda%206.jpg" alt="falda 6" width="600" height="400">
                     </a>
-                    <div class="descripcion">Add a description of the image here</div>
+                    <div class="descripcion">Falda con short corto</div>
                     <p class="precio">$200.00</p>
                 </div>
             </div>
-        </div>
+            <div class="boton-container">
+                <button onclick="history.back()">Regresar</button>
+            </div>
             
+            
+        </div>
+        
         
         <div class="footer">
             <img src="img/Logo.jpeg" alt="Logo" style="width:100px;">
